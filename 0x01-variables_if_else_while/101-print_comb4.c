@@ -2,7 +2,7 @@
 
 /**
  * main - prints all possible different combinations of three digits
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 				if (l > y && y > x)
 				{
 					putchar(x);
-					putchar(m);
+					putchar(y);
 					putchar(l);
 					if (x != 55 || y != 56)
 					{
